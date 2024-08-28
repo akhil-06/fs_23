@@ -1,0 +1,103 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Form Tag Explanation</h1>
+    <hr />
+
+    <!-- for the lining -->
+    <fieldset>
+        <!-- for caption purpose -->
+      <legend>Personal Details</legend>
+      <form action="https://google.com" autocomplete="on">
+        <!-- for input field -->
+        <label for="fname">FirstName:- </label>
+        <input type="text" name="fname" id="" required/>
+        <br /><br />
+        
+        <label for="mname">MiddleName:- </label>
+        <input type="text" name="mname" id="" />
+        <br /><br />
+
+        <label for="lname">LastName:- </label>
+        <input type="text" name="lname" id="" />
+        <br /><br />
+
+        <label for="course">Course :</label>
+        <select name="course" id="">
+          <option value="Course">Course</option>
+          <option value="BCA">BCA</option>
+          <option value="">BBA</option>
+          <option value="">MCA</option>
+          <option value="">M.Tech</option>
+          <option value="">B.Tech</option>
+        </select>
+        <br /><br />
+
+        <label for="gender">Gender:- </label>
+        <br />
+        <input type="radio" name="gender" id="" value="Male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="gender" id="" value="Female" />
+        <label for="female">Female</label>
+        <br />
+        <input type="radio" name="gender" id="" value="Other" />
+        <label for="Other">Other</label>
+        <br /><br />
+        <label for="dob">DOB:- </label>
+        <!-- <input type="date" name="dob" id=""> -->
+        <input type="datetime-local" name="dob" id="" />
+        <br /><br />
+
+        <label for="phoneNumber">Phone</label>
+        <input
+          type="text"
+          name="phoneNumber"
+          id=""
+          placeholder="+91"
+          size="3"
+          disabled
+        />
+        <input type="number" name="phoneNumber" id="" size="10" required/>
+        <br /><br />
+
+        <label for="address">Address</label><br />
+        <textarea name="address" id="" rows="10" cols="40"></textarea>
+        <br /><br />
+
+        <label for="Email">Email:- </label>
+        <input type="email" name="Email" id="" required/><br /><br />
+
+        <label for="password">Password:- </label>
+        <input type="password" name="password" id="" required/><br /><br />
+
+        <label for="Repassword">Re-type password: </label>
+        <input type="password" name="Repassword" id="" required/><br /><br />
+
+        <input type="checkbox" name="terms&conditions" id="" />
+        <label for="terms&conditions">Agree to terms and conditions</label
+        ><br />
+        <input type="checkbox" name="GetUpdatesOn" id="" />
+        <label for="terms&conditions">Get Updates on what'sapp</label>
+        <br /><br />
+
+        <label for="chooseFile">Choose File:- </label>
+        <input type="file" name="chooseFile" id="" required/><br /><br />
+
+        <label for="chooseColor">Choose Color:- </label>
+        <input type="color" name="chooseColor" id="" /><br /><br />
+
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+
+    <!-- <form action="">
+            <label for="fullName">Name:- </label>
+            <input type="text" name="fullName">
+            <br>
+            <label for="userEmail">Email:- </label>
+            <input type="email" name="userEmail">
+        </form> -->
+  </body>
+</html>
