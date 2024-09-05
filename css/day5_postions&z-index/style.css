@@ -1,0 +1,129 @@
+div{
+    font-size: 25px;
+    padding: 15px;
+}
+.greenyellow{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 280px;
+    background-color: greenyellow;
+}
+
+.orange{
+    position: absolute;
+    z-index: 2;
+    top: 150;
+    left: 0;
+    width: 220px;
+    height: 150px;
+    background-color: orange
+}
+
+.skyblue{
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 150px;
+    width: 220px;
+    height: 150px;
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+/* body{
+    position: relative;
+    height: 100px;
+    width: 200px;
+} */
+/* .purple{
+    position: relative;
+    height: 2000px;
+    width: 2000px;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: purple;
+}
+
+.cyan{
+    position: fixed;
+    left:1000px;
+    top: 200px;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: cyan;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#heading1 {
+  text-align: center;
+  background-color: cyan;
+  color: brown;
+  border: 2px dashed blue;
+  margin-bottom: 20px;
+}
+
+html{
+    height: 300vh;
+}
+
+.parent-element {
+  position: relative;
+  height: 1000px;
+  padding: 10px;
+  background-color: #81adc8;
+}
+
+.main-element {
+  position: sticky;
+  left: 40px;
+  bottom: 40px;
+  top: 10px;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.sibling-element {
+  padding: 10px;
+  background-color: #f2f2f2;
+} */
