@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading1{
+    text-align: center;
+    border: 2px solid greenyellow;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.divi{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: cyan;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.container{
+  height: 50vh;
+  width: 50vw;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: center;
+}
