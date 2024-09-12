@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Baskervville", serif;
+    background-color: #141E28;
+    color: linen;
+}
+html{
+    font-size: 60%;
+}
+
+h1{
+    font-family: "Anton", sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 30px;
+}
+
+.hero{
+    grid-column: 1/3;
+}
+.hero-title{
+    font-size: 8rem;
+    text-align: center;
+    color: orangered;
+    font-weight: 900;
+}
+
+.hero-subtitle{
+    font-size: 2.5rem;
+    color: orangered;
+    text-align: center;
+}
+
+.author{
+    font-size: 2.1rem;
+}
+
+.author-name a{
+    text-decoration: none;
+    color: linen;
+}
+
+.author-name a:hover{
+    background-color: lightgreen;
+}
+
+.publish-date{
+    color: #8A8F93;
+}
+
+.social-icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 3rem;
+    align-items: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.text{
+    grid-column: 2/3;
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+    column-width: 25rem;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+
+.first-paragraph::first-letter{
+    font-size: 6rem;
+    color: orangered;
+    margin-right: 1rem;
+    float: left;
+    /* you need to search for this */
+}
+
+.quote{
+    color: #00BEEF;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.quote::before{
+    content: '" ';
+}
+
+.quote::after{
+    content: ' "';
+}
