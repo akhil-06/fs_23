@@ -160,4 +160,23 @@ hr{
     text-decoration: none;
     font-size: 15px;
     color: rgb(96, 96, 96);
-}
+} 
+
+/* @media screen and (max-width:600px) {
+    .sidebar{
+        height: 100%;
+        width: 200px;
+        background-color: cyan;
+        overflow-y: scroll;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        height: 40px;
+        align-items: center;
+    }
+    
+} */

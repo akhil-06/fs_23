@@ -1,0 +1,66 @@
+/* https://michalsnik.github.io/aos/ */
+/* animate.style */
+
+div{
+    height: 200vh;
+    width: 100vw;
+    background-color: cyan;
+}
+.animate__animated{
+    text-align: center;
+    color: whitesmoke;
+    animation-iteration-count: 10; 
+    animation-delay: 2s;
+    font-size: 5rem;
+}
+
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    margin-top: 30px;
+    /* position: relative;
+    left: 400px; */
+    margin: auto;
+}
+
+
+
+
+
+/* 
+div{
+    position: absolute;
+    top: 20%;
+    left:20%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    animation-name: div1_animation;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s; 
+    animation-direction: alternate;
+}
+
+@keyframes div1_animation {
+    0%{}
+    1%{}
+    20%{}
+    50%{
+        transform: scale(2);
+        background-color: red;
+        border-radius: 25%;
+    }
+    70%{
+        transform: rotate(160deg);
+    }
+    90%{}
+    100%{
+        background-color: yellow;
+        border-radius: 50%;
+    }
+}
+ */
